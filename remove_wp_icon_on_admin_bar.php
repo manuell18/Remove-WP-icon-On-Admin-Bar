@@ -1,4 +1,16 @@
 <?php
+/**
+ * Plugin Name: Remove WP Icon On Admin Bar
+ * Plugin URI: https://manuellsolutions.com/remove-wp-logo
+ * Description: Removes the WordPress icon/logo from the admin bar.
+ * Version: 1.0.0
+ * Author: Emmanuel Milimo
+ * Author URI: https://manuellsolutions.com
+ * License: GPL-2.0-or-later
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
+ */
+
+
 function replace_admin_bar_logo() {
     global $wp_admin_bar;
 
